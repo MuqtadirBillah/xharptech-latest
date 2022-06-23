@@ -86,7 +86,7 @@ function ContactPage(){
                                         <p><sub className="warning">{warning}</sub></p>
                                         <button className="sendBut" onClick={()=>{send()}}>SEND</button>
                                         <img src="/assets/images/or.png" alt="" />
-                                        <a href='/'><button className="sendBut">Book A Meeting</button></a>
+                                        <a href='http://calendly.com/xharptech'><button className="sendBut">Book A Meeting</button></a>
                                     </div>
                                 </div>
                             </div>

@@ -29,7 +29,7 @@ function Navigation(){
                                 <a className="nav-link" href="/blogs">Blogs</a>
                             </li>
                         </ul>
-                        <a href='./contact'><button className="contactButNav">Contact us</button></a>
+                        <a href='/contact'><button className="contactButNav">Contact us</button></a>
                     </div>
                 </div>
             </nav>

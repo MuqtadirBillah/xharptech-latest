@@ -21,17 +21,23 @@ function SingleBlogPage(){
                         <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
                     </div>
                     <div className="row authorRow">
-                        <div className="col-1">
-                            <img src="/assets/images/avatar.png" style={{width: 'auto'}} alt="xharptech-avatar" />
-                        </div>
-                        <div className="col-1 align-self-center">
-                            <b>Xharptech</b>
-                        </div>
-                        <div className="col-1 align-self-center">
-                            <span>|</span>
-                        </div>
-                        <div className="col-2 align-self-center">
-                            <span>2nd January 2022</span>
+                        <div className="row">
+                            <div className="col-lg-1 col-md-1 col-3 align-self-center">
+                                <img src="/assets/images/avatar.png" style={{width: '100%'}} alt="xharptech-avatar" />
+                            </div>
+                            <div className="col-lg-10 col-md-10 col-9 align-self-center">
+                                <div className="row align-self-center">
+                                    <div className="col-lg-2 col-md-1 col-3 align-self-center">
+                                        <b>Xharptech</b>
+                                    </div>
+                                    <div className="col-lg-1 col-md-1 col-2 align-self-center dashh">
+                                        <span>|</span>
+                                    </div>
+                                    <div className="col-lg-3 col-12 align-self-center">
+                                        <span>2nd January 2022</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="imgRow">

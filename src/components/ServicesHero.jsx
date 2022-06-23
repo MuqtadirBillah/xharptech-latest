@@ -13,7 +13,7 @@ function ServicesHero(){
                                         <h2 className="updatedSectionMainHeading highText">Our Services</h2>
                                         <h1>Lorem, ipsum dolor.</h1>
                                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis quibusdam, maiores ipsa nam neque dolor dolores in libero iste. Laudantium beatae totam perspiciatis! Perspiciatis necessitatibus culpa quaerat minus pariatur dolores recusandae alias atque maiores aspernatur!</p>
-                                        <button>BOOK A MEETING</button>
+                                        <a href='http://calendly.com/xharptech'><button>BOOK A MEETING</button></a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 right align-self-center">
                                         <img src="/assets/images/ServicesHero1.png" alt="hero-image" />

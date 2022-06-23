@@ -26,7 +26,7 @@ function Hero(){
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-sm-12 left align-self-center">
                                         <h1>Serving Technology<br />Better Through insightful<br /><span className="highText">Design, UX & Strategy</span><br />of Your Business</h1>
-                                        <button>BOOK A MEETING</button>
+                                        <a href='http://calendly.com/xharptech'><button>BOOK A MEETING</button></a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 right">
                                         <img src="/assets/images/home-slider-2.png" alt="hero-image" />

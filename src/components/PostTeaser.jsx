@@ -7,7 +7,7 @@ function PostTeaser(){
                 <img src="/assets/images/postImg.png" alt="post-image" />
             </div>
             <div className="postBody">
-                <a href='/blog/view'><h4>10 secret tips for managing a team remotely</h4></a>
+                <a href='/blog/lorem'><h4>10 secret tips for managing a team remotely</h4></a>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, vel.</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, vel.</p>
             </div>

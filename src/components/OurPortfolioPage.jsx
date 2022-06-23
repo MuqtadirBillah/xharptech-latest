@@ -26,7 +26,7 @@ function OurPortfolioPage(){
                                                 <h2 className="updatedSectionMainHeading">Portfolio</h2>
                                                 <h1>Our Work</h1>
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam mollitia, omnis cumque, at autem magni repellat repellendus nemo enim suscipit expedita laudantium atque delectus fugiat voluptas a dolores natus deserunt sunt similique corporis voluptatum praesentium.</p>
-                                                <button>BOOK A MEETING</button>
+                                                <a href='http://calendly.com/xharptech'><button>BOOK A MEETING</button></a>
                                             </div>
                                             <div className="col-lg-6 col-md-6 col-sm-12 right align-self-center">
                                                 <img src="/assets/images/portHeroImg.png" alt="hero-image" />

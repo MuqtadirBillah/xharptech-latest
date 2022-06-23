@@ -27,10 +27,10 @@ function App() {
           <Route  path="/" exact element={<Home />} />
           <Route  path="/services" exact element={<ServicesPageUpdated />} />
           <Route  path="/our-portfolio" exact element={<OurPortfolioPage />} />
-          <Route  path="/contact" exact element={<ContactPage />} />
           <Route  path="/about" exact element={<AboutPage />} />
+          <Route  path="/contact" exact element={<ContactPage />} />
           <Route  path="/blogs" exact element={<BlogPage />} />
-          <Route  path="/blog/view" exact element={<SingleBlogPage />} />
+          <Route  path="/blog/:blogName" exact element={<SingleBlogPage />} />
           {/* <Route  path="*" exact element={<PageNotFound />} /> */}
         </Routes>
       </Router>

@@ -80,10 +80,21 @@ body .navigation .navbar .container-fluid .navbar-collapse .contactButNav {
   color: white;
   padding: 5px 30px;
   border-radius: 3px;
-  border: 0;
+  border: 1px solid #00C2FF;
   font-size: medium;
   font-family: Futura Bold Font;
   font-weight: 500 !important;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
+
+body .navigation .navbar .container-fluid .navbar-collapse .contactButNav:hover {
+  color: #00C2FF;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 body .hero {
@@ -1768,9 +1779,22 @@ body .contactPage .containerForm .mainRow .left .container .contactForm .innerFo
   padding: 15px 10px;
   border: 0;
   background-color: #00C2FF;
+  border: 2px solid #00C2FF;
   font-size: large;
   font-family: 'montserrat';
   color: white;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
+
+body .contactPage .containerForm .mainRow .left .container .contactForm .innerForm button:hover {
+  background-color: white;
+  border-color: #00C2FF;
+  color: #00C2FF;
 }
 
 body .contactPage .containerForm .mainRow .left .container .contactForm .innerForm img {
@@ -2004,10 +2028,18 @@ body .singleBlogPage {
   padding-bottom: 100px;
 }
 
+body .singleBlogPage .container .titleRow {
+  width: 80%;
+  margin: 0 auto;
+}
+
 body .singleBlogPage .container .authorRow {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 body .singleBlogPage .container .authorRow span {
@@ -2015,12 +2047,19 @@ body .singleBlogPage .container .authorRow span {
 }
 
 body .singleBlogPage .container .imgRow {
+  width: 80%;
+  margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 body .singleBlogPage .container .imgRow img {
   width: 100%;
+}
+
+body .singleBlogPage .container .contentRow {
+  width: 80%;
+  margin: 0 auto;
 }
 
 body .singleBlogPage .container .contentRow p {
@@ -2034,12 +2073,17 @@ body .singleBlogPage .container .contentRow hr {
   margin-bottom: 30px;
 }
 
+body .singleBlogPage .container .writtenRow {
+  width: 80%;
+  margin: 0 auto;
+}
+
 body .singleBlogPage .container .writtenRow img {
-  height: 30px;
+  height: 25px;
 }
 
 body .singleBlogPage .container .blogsRow {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 body .singleBlogPage .container .blogsRow .blogs {
@@ -2378,6 +2422,26 @@ body .singleBlogPage .container .blogsRow .blogs .posts {
   .ourPortfolioPage .portfolioHero .updatedSectionMainHeading {
     text-align: left;
   }
+  .singleBlogPage .container .titleRow {
+    width: 90% !important;
+    text-align: left !important;
+  }
+  .singleBlogPage .container .authorRow {
+    width: 90% !important;
+    text-align: left !important;
+  }
+  .singleBlogPage .container .authorRow .dashh {
+    display: none !important;
+  }
+  .singleBlogPage .container .imgRow {
+    width: 90% !important;
+  }
+  .singleBlogPage .container .contentRow {
+    width: 90% !important;
+  }
+  .singleBlogPage .container .writtenRow {
+    width: 90% !important;
+  }
   .hero {
     padding-top: 80px;
   }
@@ -2476,6 +2540,9 @@ body .singleBlogPage .container .blogsRow .blogs .posts {
     font-size: xx-large;
     -webkit-transition: background-color 0.5s ease-out;
     transition: background-color 0.5s ease-out;
+  }
+  .testimonialsUpdated .contactPage .containerForm .mainRow {
+    border: 1px solid rgba(0, 0, 0, 0) !important;
   }
   .testimonialsUpdated .reviews .singleCard .reviewCard {
     background-color: #E4F8FF;
