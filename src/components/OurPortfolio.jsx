@@ -16,7 +16,7 @@ function OurPortfolio(){
                     </div>
                     <div className="tiless">
                         <div className="row">
-                            <div className="col-lg-4 col-md-4 col-sm-12" data-aos="flip-right" data-aos-delay="100" data-aos-duration="600">
+                            <div className="col-lg-4 col-md-4 col-sm-12 tile" data-aos="flip-right" data-aos-delay="100" data-aos-duration="600">
                                 <div>
                                     <img src="/assets/images/port.png" alt="" />
                                     <div className="content">
@@ -25,7 +25,7 @@ function OurPortfolio(){
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-4 col-sm-12" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600">
+                            <div className="col-lg-4 col-md-4 col-sm-12 tile" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="600">
                                 <div>
                                     <img src="/assets/images/portland.png" alt="" />
                                     <div className="content">
@@ -39,7 +39,7 @@ function OurPortfolio(){
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-4 col-sm-12" data-aos="flip-right" data-aos-delay="100" data-aos-duration="600">
+                            <div className="col-lg-4 col-md-4 col-sm-12 tile" data-aos="flip-right" data-aos-delay="100" data-aos-duration="600">
                                 <div>
                                     <img src="/assets/images/port.png" alt="" />
                                     <div className="content">

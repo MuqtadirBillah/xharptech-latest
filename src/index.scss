@@ -351,7 +351,8 @@ body{
                             }
                         }
                         &:hover{
-                            background-color: $poster-color-d3;
+                            background-color: $poster-color-d4;
+                            box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.4);
                             .cardBody{
                                 h3{
                                     i{
@@ -587,11 +588,18 @@ body{
             margin-top: 50px;
             img{
                 width: 100%;
+                &:hover{
+                    filter: contrast(1.1);
+                    cursor: pointer;
+                }
             }
             h3{
                 margin-top: 20px;
                 // font-family: Futura Bold Font;
                 font-weight: 700;
+                &:hover{
+                    color: $main-blue-color;
+                }
             }
             p{
                 font-size: large;
@@ -631,10 +639,17 @@ body{
                 margin-bottom: 30px;
                 img{
                     width: 100%;
+                    &:hover{
+                        filter: contrast(1.1);
+                        cursor: pointer;
+                    }
                 }
                 h3{
                     margin-top: 20px;
                     font-family: Futura Bold Font;
+                    &:hover{
+                        color: $main-blue-color;
+                    }
                 }
                 p{
     
@@ -1158,7 +1173,7 @@ body{
                     font-size: large;
                 }
                 .left{
-                    margin-bottom: 30px;
+                    margin-bottom: 20px;
                     img{
                        height: 50px; 
                     }
@@ -1181,11 +1196,11 @@ body{
                     }
                 }
                 .mid{
-                    margin-bottom: 50px;
+                    margin-bottom: 20px;
 
                 }
                 .right{
-                    margin-bottom: 50px;
+                    margin-bottom: 20px;
                     h1{
                         font-family: 'Montserrat', sans-serif;
                         font-weight: 600;
@@ -1729,6 +1744,9 @@ body{
                 .members{
                     padding-top: 80px;
                     background-color: white;
+                    .singleMember{
+                        text-align: right;   
+                    }
                     h3{
                         font-family: 'Montserrat', sans-serif;
                         font-weight: 500;
@@ -1738,9 +1756,6 @@ body{
                     }
                     p{
                         font-size: small !important;
-                    }
-                    img{
-                        width: 100%;
                     }
                 }
             }
@@ -2045,6 +2060,21 @@ body{
     .singlePost{
         padding: 5px 10px;
         margin-bottom: 50px;
+        &:hover{
+            cursor: pointer;
+            .postHeader{
+                img{
+                    filter: contrast(1.2);
+                }
+            }
+            .postBody{
+                a{
+                    &:hover{
+                        color: $main-blue-color;
+                    }
+                }
+            }
+        }
         .postHeader{
             img{
                 width: 100%;
@@ -2429,6 +2459,9 @@ body{
                     padding-top: 80px;
                     background-color: white;
                     text-align: center !important;
+                    .singleMember{
+                        text-align: center !important;   
+                    }
                     h3{
                         font-family: 'Montserrat', sans-serif;
                         font-weight: 500;
