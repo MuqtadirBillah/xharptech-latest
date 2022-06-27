@@ -29,7 +29,7 @@ function AboutPage(){
                                 <img src="/assets/images/aboutInfoImage.png" alt="people-handshake-image" />
                             </div>
                             <div className="col-lg-7 col-md-6 col-sm-12" data-aos="flip-left" data-aos-delay="100" data-aos-duration="600">
-                                <div className="text">                                    
+                                <div className="text align-self-center">                                    
                                     <h2 className="updatedSectionMainHeading">About us</h2>
                                     <h1>Lorem, ipsum dolor.</h1>
                                     <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eveniet in aperiam, velit ipsum quo. Laboriosam veritatis quo numquam quasi aliquam expedita dolore at sunt. Earum perspiciatis eius eos! Ex voluptatum corrupti inventore cupiditate tempore?</h3>

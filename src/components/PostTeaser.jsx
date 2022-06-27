@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function PostTeaser(){
     return(
@@ -7,7 +8,7 @@ function PostTeaser(){
                 <img src="/assets/images/postImg.png" alt="post-image" />
             </div>
             <div className="postBody">
-                <a href='/blog/lorem'><h4>10 secret tips for managing a team remotely</h4></a>
+                <Link to='/blog/lorem'><h4>10 secret tips for managing a team remotely</h4></Link>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, vel.</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, vel.</p>
             </div>

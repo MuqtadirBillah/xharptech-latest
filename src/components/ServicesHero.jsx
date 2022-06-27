@@ -16,7 +16,7 @@ function ServicesHero(){
                                         <a href='http://calendly.com/xharptech'><button>BOOK A MEETING</button></a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 right align-self-center">
-                                        <img src="/assets/images/ServicesHero1.png" alt="hero-image" />
+                                        <img src="/assets/images/servicesHero1.png" alt="hero-image" />
                                     </div>
                                 </div>
                             </div>

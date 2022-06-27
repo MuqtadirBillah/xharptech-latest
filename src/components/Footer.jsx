@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function Footer(){
 
@@ -64,10 +65,28 @@ function Footer(){
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 right">
                             <ul>
-                                <li><a href='/'>About Us</a></li>
-                                <li><a href='/'>Services</a></li>
-                                <li><a href='/'>Career</a></li>
-                                <li><a href='/'>Contact us</a></li>
+                                
+                                    
+                                <li>
+                                    <Link to="/about">
+                                    About Us
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/services">
+                                    Services
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/career">
+                                    Career
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/contact">
+                                    Contact Us
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     </div>

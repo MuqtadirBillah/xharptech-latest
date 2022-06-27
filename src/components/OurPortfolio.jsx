@@ -6,7 +6,7 @@ function OurPortfolio(){
             <div className="container">
                 <div className="row">            
                     <div className="row ourHeading">
-                        <div className="col-lg-12 col-md-12 col-sm-12 align-self-center ourLeft" data-aos="slide-down" data-aos-delay="100" data-aos-duration="600">
+                        <div className="col-lg-12 col-md-12 col-sm-12 align-self-center ourLeft" data-aos="fade-in" data-aos-delay="100" data-aos-duration="600">
                             <h2 className="updatedSectionMainHeading" data-aos="slide-down" data-aos-delay="100" data-aos-duration="600">Our Portfolio</h2>
                             <h1>Our Recent works</h1>
                         </div>

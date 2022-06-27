@@ -5,11 +5,11 @@ function AboutBanner(){
         <div className="becomeBanner aboutBanner">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6 col-md-6 col-sm-6 col-12 align-self-center">
+                    <div className="col-lg-6 col-md-6 col-sm-6 col-12 align-self-center left">
                         <h1>Our Goals</h1>
                         <h3>Helping our Daries by thorough & exceptional Design</h3>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 col-12 align-self-center">
+                    <div className="col-lg-6 col-md-6 col-sm-6 col-12 align-self-center right">
                         <div className="row">
                             <div className="col-lg-4 col-md-4 col-sm-4 col-4">
                                 <h2>72+</h2>

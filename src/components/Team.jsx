@@ -11,10 +11,10 @@ function Team(){
                         <div className="row members">
                             <div className="col-lg-4 col-md-4 col-12">
                                 <div className="row">
-                                    <div className="col-lg-4 col-md-4 col-12 align-self-center">
+                                    <div className="col-lg-5 col-md-6 col-12 align-self-center">
                                         <img src="/assets/images/personplaceholder.png" alt="team-member-image" />
                                     </div>
-                                    <div className="col-lg-8 col-md-8 col-12 align-self-center">
+                                    <div className="col-lg-7 col-md-6 col-12 align-self-center">
                                         <div>
                                             <h3>Jeffery Broen</h3>
                                             <h5>Creativer Director</h5>
@@ -25,10 +25,10 @@ function Team(){
                             </div>
                             <div className="col-lg-4 col-md-4 col-12">
                                 <div className="row">
-                                    <div className="col-lg-4 col-md-4 col-12 align-self-center">
+                                    <div className="col-lg-5 col-md-6 col-12 align-self-center">
                                         <img src="/assets/images/personplaceholder.png" alt="team-member-image" />
                                     </div>
-                                    <div className="col-lg-8 col-md-8 col-12 align-self-center">
+                                    <div className="col-lg-7 col-md-6 col-12 align-self-center">
                                         <div>
                                             <h3>Jeffery Broen</h3>
                                             <h5>Creativer Director</h5>
@@ -39,10 +39,10 @@ function Team(){
                             </div>
                             <div className="col-lg-4 col-md-4 col-12">
                                 <div className="row">
-                                    <div className="col-lg-4 col-md-4 col-12 align-self-center">
+                                    <div className="col-lg-5 col-md-6 col-12 align-self-center">
                                         <img src="/assets/images/personplaceholder.png" alt="team-member-image" />
                                     </div>
-                                    <div className="col-lg-8 col-md-8 col-12 align-self-center">
+                                    <div className="col-lg-7 col-md-6 col-12 align-self-center">
                                         <div>
                                             <h3>Jeffery Broen</h3>
                                             <h5>Creativer Director</h5>
