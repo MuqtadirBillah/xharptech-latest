@@ -6,7 +6,7 @@ function Achievements(){
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-md-4 col-sm-12 leftMain" data-aos="flip-right" data-aos-delay="100" data-aos-duration="600">
-                        <img src="/assets/images/achMain.png" alt="" />
+                        <img src="/assets/images/achMainNew.png" alt="" />
                     </div>
                     <div className="col-lg-8 col-md-8 col-sm-12 rightMain align-self-center" data-aos="flip-left" data-aos-delay="100" data-aos-duration="600">
                         <h1 className="sectionMainHeading" data-aos="fade-down" data-aos-delay="80" data-aos-duration="600">Our Achievements</h1>

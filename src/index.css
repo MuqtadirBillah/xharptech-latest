@@ -247,9 +247,19 @@ body .servicess .servicesCards .container .row .serviceCard .cardBody h3 i {
 body .servicess .servicesCards .container .row .serviceCard .cardBody p a {
   text-decoration: none;
   color: #00C2FF;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
 }
 body .servicess .servicesCards .container .row .serviceCard .cardBody p a i {
   margin-left: 5px;
+}
+body .servicess .servicesCards .container .row .serviceCard .cardBody p a:hover {
+  color: black;
+  font-weight: 500;
 }
 body .servicess .servicesCards .container .row .serviceCard:hover {
   background-color: #DEE7FF;
@@ -717,6 +727,7 @@ body .achievements .leftMain {
 body .achievements .leftMain img {
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 body .achievements .rightMain {
   padding: 30px;
@@ -1918,6 +1929,15 @@ body .singleBlogPage .container .blogsRow .blogs .posts {
     font-family: Futura Heavy Font;
     font-size: 3rem !important;
     font-weight: 800;
+  }
+  .achievements .leftMain {
+    padding: 10px !important;
+    padding-left: 0;
+  }
+  .achievements .leftMain img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
   }
 
   .work {

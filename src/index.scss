@@ -347,6 +347,16 @@ body{
                                     i{
                                         margin-left: 5px;
                                     }
+                                    -webkit-transition: all 0.2s ease-out;
+                                    -moz-transition: all 0.2s ease-out;
+                                    -o-transition: all 0.2s ease-out;
+                                    -webkit-transition: all 0.2s ease-in;
+                                    -moz-transition: all 0.2s ease-in;
+                                    -o-transition: all 0.2s ease-in;
+                                    &:hover{
+                                        color: black;
+                                        font-weight: 500;
+                                    }
                                 }
                             }
                         }
@@ -912,6 +922,7 @@ body{
             img{
                 width: 100%;
                 height: 100%;
+                border-radius: 10px;
             }
         }
         .rightMain{
@@ -2338,6 +2349,15 @@ body{
         .sectionMainHeading{
             @include sectionMainHeadingMedium();
             font-weight: 800;
+        }
+        .leftMain{
+            padding: 10px !important;
+            padding-left: 0;
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+            }
         }
     }
     .work{
